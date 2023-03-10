@@ -1,0 +1,73 @@
+* {
+    margin: 0
+}
+
+/*헤더영역*/
+.menu {
+    background-color: grey;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+.menu #pr {
+    float: left;
+    padding: 10px;
+
+    transition: background-color ease-in-out;
+}
+.menu #pr:hover {
+    background-color: darkgrey;
+    letter-spacing: 4px;
+}
+
+.menu #de {
+    transition: background-color ease-in-out;
+    padding: 10px;
+}
+.menu #de:hover {
+    background-color: darkgrey;
+    letter-spacing: 4px;
+}
+
+/* 메인영역 */
+img {
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+}
+
+img:hover {
+    
+}
+
+.one, .two {
+    float: left
+}
+
+.three {
+    clear: both;
+    float: left;
+}
+
+.four {
+    float: left;
+}
+
+/* 푸터영역 */
+footer {
+    background-color: lightgrey;
+    clear: both;
+    height: 150px;
+}
+
+footer div {
+    padding: 55px 0 55px 40px;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="introduce.css">
+        <title>나예서 이력서</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <!--상세내용 크기가 너무 큼/ transition 느리게 적용안됨-->
+                <ul class="menu">
+                    <li id="pr">
+                        <a href="#profile">프로필</a>
+                    </li>
+                    <li id="de">
+                        <a href="#detail">상세내용</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <!--프로필 이미지 확대 hover: transition 천천히-->
+            <article id="profile">
+                <h1>나예서</h1>
+                <img src="cat.jpg" alt="프로필 이미지"></img>
+            </article>
+            <!--각 섹션 grid나 flex로 영역을 알맞게 나누기-->
+            <article id="detail">
+                <section class="one">
+                    <h2>인적사항</h2>
+                    <div>
+                        <strong>생년월일:</strong> 
+                        2000. 10. 20
+                    </div>
+                    <div>
+                        <strong>주소:</strong>
+                        경기도 용인시 기흥구
+                    </div>
+                    <div>
+                        <strong>연락처:</strong>
+                        nyeseo99@gmail.com | 010.9397.5877
+                    </div>
+                </section>
+                <div>
+                <section class="two">
+                    <h2>학력사항</h2>
+                    <ul>
+                        <li>2013.03-2016.02: 구성중학교</li>
+                        <li>2016.03-2019.02: 가온고등학교</li>
+                        <li>2019.02-: 서울시립대학교 | 국제관계학과, 법규범제도학과</li>
+                    </ul>
+                </section>
+                <section class="three">
+                    <h2>경력사항</h2>
+                    <ol>
+                        <li>엘리스 AI 트랙 수료</li>
+                        <li>SCPC 2023 1등(이면 좋겠다)</li>
+                        <li>경력이 없어요</li>
+                    </ol>
+                </section>
+                <section class="four">
+                    <h2>보유 스킬</h2>
+                    <ul>
+                        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
+                        <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
+                        <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></li>
+                        <li><a href="https://developer.mozilla.org/en-US/docs/Glossary/Python">Python</a></li>
+                    </ul>
+                </section>
+                </div>
+            </article>
+        </main>
+
+        <footer>
+            <div>
+                Author by: 나예서 (Yeseo Na)
+                <br>
+                Copyright <strong>© 2023 NYS</strong>. All rights reserved.
+            </div>
+        </footer>
+    </body>
+</html>
